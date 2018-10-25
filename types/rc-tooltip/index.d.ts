@@ -17,7 +17,7 @@ declare namespace RCTooltip {
 
 	export interface Props extends React.Props<any> {
 		overlayClassName?: string;
-		trigger?: Trigger[];
+		trigger?: Trigger;
 		mouseEnterDelay?: number;
 		mouseLeaveDelay?: number;
 		overlayStyle?: React.CSSProperties;
